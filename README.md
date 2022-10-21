@@ -75,4 +75,4 @@ SUT: Panacol | Mi Billetera | Cargar fondos a la Billletera de forma práctica
          ✔ Desglose de User Stories (US)
          
       
-<< En los archivos adjuntos está desglosado el Análisis Funcional con el desarrollo del proyecto y del proceso QA. Check it out! >>
+<< En los archivos adjuntos está desglosado el Análisis Funcional del SUT. Check it out! >>
