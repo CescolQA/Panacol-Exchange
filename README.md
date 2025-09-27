@@ -1,78 +1,52 @@
-# Description / Panacol Exchange 💸  
+# 💱 Panacol Exchange – Plataforma Fintech para Intercambio de Divisas  
 
-This project is a personal development. The main idea is coming of my own fintech business.
+## 📌 Resumen  
+Proyecto fintech orientado al **mercado de divisas**, con foco en la compra/venta de dólares, remesas familiares y transacciones **P2P** mediante servicios de pago y cobro intermedios.  
+El objetivo fue **sistematizar los procesos operacionales** de intercambio, que originalmente se realizaban de forma manual, y transformarlos en una **aplicación web estructurada** con trazabilidad funcional.  
 
-# BA / Functional Analyst 🔍
+👉 Mi rol fue de **Product Owner y Business Analyst**, asumiendo también el liderazgo emprendedor y estratégico del negocio.  
 
-This SUT is being developed as a Project  with a deep Software Requirement Specification.
+---
 
-# Project Index
+## 🔄 Alcance del Proyecto  
+- Diseño de procesos y diagramas de flujo de las operaciones principales.  
+- Documentación técnica y funcional en **Confluence**.  
+- Gestión de requerimientos y backlog en **Jira** (User Stories, criterios de aceptación, priorización).  
+- Diseño de interfaces iniciales y mockups para la **versión web**.  
 
-SUT: Panacol Exchange (Phases)
+---
 
-  Antes de realizar una transacción y envío
+## ⚙️ Funcionalidades Definidas (Feature List)  
+- **Visualizar Billetera** (fondos disponibles en múltiples monedas).  
+- **Cargar fondos** mediante:  
+  - Pagos bancarios (Argentina – Mercado Pago, Brubank).  
+  - Pagos internacionales (EE.UU. – Zelle, PayPal, Payoneer).  
+  - Pagos en Venezuela (Banesco, Mercantil, Pago Móvil).  
+  - Criptomonedas (Binance – USDT Tether).  
+- **Registro de pagos** con detalle de:  
+  - País de origen, medio de envío, monto, fecha, número de recibo, foto del comprobante.  
+- **Confirmación y cierre de pagos** con envío de emails automáticos de acreditación.  
 
-    PAGE: Landing
+---
 
-    PAGE: Login
+## 📊 Artefactos de Análisis y Diseño  
+- **Diagrama de Flujo**: proceso de carga y registro de fondos en billetera.  
+- **Especificaciones de Interfaz (UI Spec)**: navegación de las páginas principales (Landing, Login, Mi Billetera, Envío, Retiro, Transacciones).  
+- **Historias de Usuario (US)**: backlog priorizado con criterios de aceptación y escenarios de prueba.  
+- **Jerarquía de Funcionalidades (SFH)**: mapa funcional del sistema.  
 
-    PAGE: Perfil
+---
 
-  Durante la transacción
+## 🎯 Logros y Aprendizajes  
+- Construcción de una visión integral de producto desde la **ideación hasta el prototipo funcional**.  
+- Experiencia práctica en la **gestión de requerimientos fintech** con múltiples métodos de pago y monedas.  
+- Aplicación de **análisis funcional con trazabilidad**, asegurando coherencia entre procesos, interfaz y requisitos.  
+- Generación de valor en el sector **Fintech**, consolidando habilidades tanto de **Business Analyst** como de **Product Owner**.  
 
-    PAGE: Home
+---
 
-    PAGE: Mi Billetera
-
-      BA - Análisis de Requerimientos
-
-      UX - Diseño Web y Mockup
-
-      QA -  Ejecución de Pruebas
-
-  Durante el envío y retiro de dinero
-
-    PAGE: Enviar dinero
-
-    PAGE: Retirar dinero
-
-  Después de la transacción y el envío
-
-    PAGE: Transacciones
-
-
-# Componente / Mi Billetera
-
-
-SUT: Panacol | Mi Billetera | Cargar fondos a la Billletera de forma práctica
-
-    US: Panacol | Mi Billetera | Visualizar los fondos disponibles en la Billetera 
-
-    US: Panacol | Mi Billetera | Iniciar proceso de carga de fondos a través de pagos bancarios
-
-    US: Panacol | Mi Billetera | Iniciar proceso de carga de fondos a través de pagos con criptomoneda 
-
-    US: Panacol | Mi Billetera | Registrar pagos entre paises
-
-      US: Panacol | Mi Billetera | Registrar pagos entre Argentina y Venezuela
-
-      US: Panacol | Mi Billetera | Registrar pagos entre Argentina y Estados Unidos
-
-      US: Panacol | Mi Billetera | Registrar pagos entre Venezuela y  Estados Unidos
-
-    US: Panacol | Mi Billetera | Cerrar pagos de la Billetera
-
- 
-      
-      
-# Jornada de Prácticas en Panacol (Proyectos Personales)
-🔵  Desarrollo del Software Panacol Exchange 
-
-🔰 Puntos relevantes del desarrollo de este Proyecto 
-  ✔ Analisis de Requerimientos 
-    ✔ BFA (Business Feature Analysis)
-      ✔ SFH  (Software Features Hierarchy)
-         ✔ Desglose de User Stories (US)
-         
-      
-<< En los archivos adjuntos está desglosado el Análisis Funcional del SUT. Check it out! >>
+## 🌐 Impacto Profesional  
+Aunque el proyecto no llegó a completarse en producción, permitió:  
+- Desarrollar experiencia clave en **productos digitales fintech**.  
+- Fortalecer mi perfil en la **intersección de negocio y tecnología**.  
+- Consolidar un mindset de **innovación técnica y gestión estratégica de producto**.
